@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/playmusic-3D-Modal/static/css/main.033ab4a8.css",
-    "main.js": "/playmusic-3D-Modal/static/js/main.c52ea13b.js",
+    "main.js": "/playmusic-3D-Modal/static/js/main.26bb43cf.js",
     "static/js/208.1609b5cf.chunk.js": "/playmusic-3D-Modal/static/js/208.1609b5cf.chunk.js",
     "static/js/293.e169f0e2.chunk.js": "/playmusic-3D-Modal/static/js/293.e169f0e2.chunk.js",
     "static/js/917.62e32af2.chunk.js": "/playmusic-3D-Modal/static/js/917.62e32af2.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/WixMadeforDisplay-Bold.ttf": "/playmusic-3D-Modal/static/media/WixMadeforDisplay-Bold.6ddb73837792347bf1c4.ttf",
     "index.html": "/playmusic-3D-Modal/index.html",
     "main.033ab4a8.css.map": "/playmusic-3D-Modal/static/css/main.033ab4a8.css.map",
-    "main.c52ea13b.js.map": "/playmusic-3D-Modal/static/js/main.c52ea13b.js.map",
+    "main.26bb43cf.js.map": "/playmusic-3D-Modal/static/js/main.26bb43cf.js.map",
     "208.1609b5cf.chunk.js.map": "/playmusic-3D-Modal/static/js/208.1609b5cf.chunk.js.map",
     "293.e169f0e2.chunk.js.map": "/playmusic-3D-Modal/static/js/293.e169f0e2.chunk.js.map",
     "917.62e32af2.chunk.js.map": "/playmusic-3D-Modal/static/js/917.62e32af2.chunk.js.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.033ab4a8.css",
-    "static/js/main.c52ea13b.js"
+    "static/js/main.26bb43cf.js"
   ]
 }
