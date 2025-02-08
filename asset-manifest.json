@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/playmusic-3D-Modal/static/css/main.3571c34d.css",
+    "main.js": "/playmusic-3D-Modal/static/js/main.52018036.js",
+    "static/js/208.1609b5cf.chunk.js": "/playmusic-3D-Modal/static/js/208.1609b5cf.chunk.js",
+    "static/js/293.e169f0e2.chunk.js": "/playmusic-3D-Modal/static/js/293.e169f0e2.chunk.js",
+    "static/js/917.62e32af2.chunk.js": "/playmusic-3D-Modal/static/js/917.62e32af2.chunk.js",
+    "static/js/516.5874d9d5.chunk.js": "/playmusic-3D-Modal/static/js/516.5874d9d5.chunk.js",
+    "static/js/519.95e1aa63.chunk.js": "/playmusic-3D-Modal/static/js/519.95e1aa63.chunk.js",
+    "static/js/946.f85f94d5.chunk.js": "/playmusic-3D-Modal/static/js/946.f85f94d5.chunk.js",
+    "static/js/160.19400d36.chunk.js": "/playmusic-3D-Modal/static/js/160.19400d36.chunk.js",
+    "static/js/23.12f22fd8.chunk.js": "/playmusic-3D-Modal/static/js/23.12f22fd8.chunk.js",
+    "static/js/488.c08859f3.chunk.js": "/playmusic-3D-Modal/static/js/488.c08859f3.chunk.js",
+    "static/media/wave.mp4": "/playmusic-3D-Modal/static/media/wave.ff054178dc56b3caab53.mp4",
+    "static/media/WixMadeforDisplay-Bold.ttf": "/playmusic-3D-Modal/static/media/WixMadeforDisplay-Bold.6ddb73837792347bf1c4.ttf",
+    "index.html": "/playmusic-3D-Modal/index.html",
+    "main.3571c34d.css.map": "/playmusic-3D-Modal/static/css/main.3571c34d.css.map",
+    "main.52018036.js.map": "/playmusic-3D-Modal/static/js/main.52018036.js.map",
+    "208.1609b5cf.chunk.js.map": "/playmusic-3D-Modal/static/js/208.1609b5cf.chunk.js.map",
+    "293.e169f0e2.chunk.js.map": "/playmusic-3D-Modal/static/js/293.e169f0e2.chunk.js.map",
+    "917.62e32af2.chunk.js.map": "/playmusic-3D-Modal/static/js/917.62e32af2.chunk.js.map",
+    "516.5874d9d5.chunk.js.map": "/playmusic-3D-Modal/static/js/516.5874d9d5.chunk.js.map",
+    "519.95e1aa63.chunk.js.map": "/playmusic-3D-Modal/static/js/519.95e1aa63.chunk.js.map",
+    "946.f85f94d5.chunk.js.map": "/playmusic-3D-Modal/static/js/946.f85f94d5.chunk.js.map",
+    "160.19400d36.chunk.js.map": "/playmusic-3D-Modal/static/js/160.19400d36.chunk.js.map",
+    "23.12f22fd8.chunk.js.map": "/playmusic-3D-Modal/static/js/23.12f22fd8.chunk.js.map",
+    "488.c08859f3.chunk.js.map": "/playmusic-3D-Modal/static/js/488.c08859f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3571c34d.css",
+    "static/js/main.52018036.js"
+  ]
+}
