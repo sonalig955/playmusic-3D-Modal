@@ -116,6 +116,8 @@ code {
   border: none;
   color: white;
   padding: 0 20px;
+
+  cursor: pointer;
 }
 
 .button-container .blue {
