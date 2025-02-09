@@ -22,7 +22,7 @@ A sleek landing page for WAVE, a high-fidelity music streaming service with smoo
 
 1️⃣ Clone the repository:
 
-git clone https://github.com/your-username/wave-music-landing.git
+git clone https://github.com/sonalig955/playmusic-3D-Modal.git
 cd wave-music-landing
 
 2️⃣ Install dependencies:
