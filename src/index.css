@@ -99,18 +99,10 @@ code {
 .animate-wave {
   animation: waveEffect 4s ease-in-out infinite;
 }
-.button-container {
-  width: 90%;
-  max-width: 400px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  margin-top: 40px;
-}
 
 .button-container button {
-  width: 45%;
+  /* width: 45%; */
+
   min-width: 120px;
   height: 40px;
   border: none;
@@ -122,85 +114,92 @@ code {
 
 .button-container .blue {
   background-color: #1a6aff;
+  border-radius: 10px;
 }
 
 .button-container .black {
   background-color: black;
+  border-radius: 10px;
 }
 
-@media (min-width: 1024px) {
+/* .button-container {
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+
+  margin-top: 40px;
+} */
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+  width: 100%; /* Default for full responsiveness */
+  max-width: 90%;
+}
+
+/* Small Screens: Adjust width */
+@media (max-width: 640px) {
   .button-container {
-    max-width: 20%;
-    margin-top: 20px;
+    width: 80%;
+    text-align: center;
   }
 }
 
-@media (max-width: 640px) {
+/* Medium Screens: Adjust width */
+@media (min-width: 647px) and (max-width: 799px) {
   .button-container {
-    margin-top: 20px;
+    max-width: 50%;
+  }
+}
+
+/* Large Screens: Narrower width */
+@media (min-width: 800px) and (max-width: 1154px) {
+  .button-container {
+    max-width: 40%;
+  }
+}
+
+/* Extra Large Screens: Even narrower width */
+@media (min-width: 1155px) {
+  .button-container {
+    max-width: 30%;
   }
 }
 
 @media (max-width: 1024px) {
-  /* ✅ Small & Medium Screens */
   .subsection {
     margin-top: 7px !important;
   }
 }
 
 @media (min-width: 640px) {
-  /* ✅ Large Screens */
   .subsection {
     margin-top: 7px !important;
   }
 }
 
 @media (min-width: 1025px) {
-  /* ✅ Large Screens */
   .subsection {
     margin-top: 32px !important;
   }
 }
 
 @media (min-width: 2560px) {
-  /* ✅ Large Screens */
   .subsection {
     margin-top: 69px !important;
   }
 }
-
-.button-container {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: center;
-}
-
-.button {
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  padding: 10px 20px;
-  border: none;
-  transition: all 0.3s ease-in-out;
-  border-radius: 6px;
-}
-
-.blue {
-  background-color: #1a6aff;
-  color: white;
-}
-
 .blue:hover {
   background-color: #005ae0;
   transform: scale(1.05);
   box-shadow: 0px 0px 15px 3px rgba(255, 255, 255, 0.8);
-}
-
-.black {
-  background-color: black;
-  color: white;
-  z-index: 10;
 }
 
 .black:hover {

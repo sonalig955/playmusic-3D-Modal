@@ -165,8 +165,9 @@ export default function App() {
             color: "white",
             fontWeight: "500",
             fontSize: "clamp(14px, 1.1vw, 17px)",
-            maxWidth: "50%",
+            maxWidth: "80%",
             lineHeight: "1.4",
+            // border: "2px solid white",
           }}
           className="cssanimation sequence fadeInBottom description"
         >
@@ -183,12 +184,11 @@ export default function App() {
             justifyContent: "center",
             alignItems: "center",
             width: "100%",
-            marginTop: "10px",
-          }}
-        >
+            marginTop: "10px"
+          }}>
           <div className="button-container">
-            <button className="button blue cssanimation sequence fadeInBottom">Join Now</button>
-            <button className="button black cssanimation sequence fadeInBottom">Explore</button>
+            <button className="blue cssanimation sequence fadeInBottom " style={{ fontSize: "16px", fontWeight: 500, cursor: "pointer" }}>Join Now</button>
+            <button className="black cssanimation sequence fadeInBottom " style={{ fontSize: "16px", fontWeight: 500, cursor: "pointer" }}>Explore</button>
           </div>
         </div>
 
