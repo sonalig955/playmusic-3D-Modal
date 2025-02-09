@@ -114,12 +114,12 @@ code {
 
 .button-container .blue {
   background-color: #1a6aff;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .button-container .black {
   background-color: black;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 /* .button-container {
