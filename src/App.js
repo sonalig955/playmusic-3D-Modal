@@ -19,7 +19,9 @@ export default function App() {
     <div style={{
       width: "100%",
       height: "100%",
+      minHeight: "100vh",
       background: "radial-gradient(circle, gray, black)",
+      overflow: "hidden"
     }}>
       <div
         style={{
@@ -29,6 +31,7 @@ export default function App() {
           justifyContent: "space-between",
           alignItems: "center",
           padding: "0 20px",
+
         }}
       >
         <div
@@ -122,8 +125,9 @@ export default function App() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            marginTop: "36px",
+            marginTop: "26px",
           }}
+        // className='subsection'
         >
           <h2
             style={{
@@ -131,10 +135,10 @@ export default function App() {
               fontSize: "3vw",
               textAlign: "center",
               fontFamily: "Wix",
-              marginTop: "32px",
+              // marginTop: "32px",
               transform: "scaleX(1.13)",
             }}
-            className="cssanimation sequence fadeInBottom"
+            className="cssanimation sequence fadeInBottom subsection"
           >
             High Fidelity Music Streaming
           </h2>
@@ -160,21 +164,31 @@ export default function App() {
             marginTop: "12px",
             color: "white",
             fontWeight: "500",
-            fontSize: "17px",
+            fontSize: "clamp(14px, 1.1vw, 17px)",
+            maxWidth: "50%",
+            lineHeight: "1.4",
           }}
-          className="cssanimation sequence fadeInBottom"
+          className="cssanimation sequence fadeInBottom description"
         >
           Elevate your audio experience with lossless audio and more.
           <br />
-          Join for &#x20B9;499 / per month. Subscription renews at applicable tier
-          price.
+          Join for &#x20B9;499 / per month. Subscription renews at applicable tier price.
         </div>
 
+
         {/* Buttons */}
-        <div className="flex justify-center items-center w-full mt-4">
+        <div className="flex justify-center items-center w-full mt-3"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            marginTop: "10px",
+          }}
+        >
           <div className="button-container">
-            <button className="blue cssanimation sequence fadeInBottom">Join Now</button>
-            <button className="black cssanimation sequence fadeInBottom">Explore</button>
+            <button className="button blue cssanimation sequence fadeInBottom">Join Now</button>
+            <button className="button black cssanimation sequence fadeInBottom">Explore</button>
           </div>
         </div>
 
@@ -184,18 +198,32 @@ export default function App() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          // height: "400px",
+          width: "100%",
+
+          height: "50vh",
+
         }}
       >
         <Spline
           scene="https://prod.spline.design/pcjCkhWnlaNlBBOn/scene.splinecode"
           style={{
+            width: "100%",
+            height: "100%", // Makes sure Spline takes full height
             display: "flex",
+
             justifyContent: "center",
             alignItems: "center",
           }}
         />
       </div>
+      <footer style={{
+        width: "100%",
+        color: "white",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: "10px"
+      }}>@2025 Made with ❤️ by Sonali Gupta</footer>
 
     </div>
   );
