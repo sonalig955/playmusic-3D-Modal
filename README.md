@@ -16,7 +16,7 @@ A sleek landing page for WAVE, a high-fidelity music streaming service with smoo
 
 📸 Preview
 
-🔗 Live Demo (if available)
+🔗 Live Demo https://sonalig955.github.io/playmusic-3D-Modal/
 
 📦 Installation & Setup
 
